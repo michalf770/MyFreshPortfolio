@@ -58,8 +58,8 @@ params:
   # profile-mode
   profileMode:
     enabled: true # needs to be explicitly set
-    title: ExampleSite
-    subtitle: "This is subtitle This is subtitleThis is subtitleThis is subtitleThis is subtitleThis is subtitleThis is subtitleThis is subtitleThis is subtitleThis is subtitleThis is subtitle"
+    title: 
+    subtitle: "Video and photo enthusiast with journalism background. Can fix your GA4 and/or Ads conversion tracking. Contact me via m@f.com"
     imageUrl: "img/p_photo.png"
     imageWidth: 120
     imageHeight: 120
