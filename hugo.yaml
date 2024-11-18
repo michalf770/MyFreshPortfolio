@@ -4,6 +4,8 @@ pagination:
   pagerSize: 5
 theme: PaperMod
 
+
+
 nableRobotsTXT: true
 buildDrafts: false
 buildFuture: false
@@ -24,6 +26,9 @@ params:
   DateFormat: "January 2, 2006"
   defaultTheme: auto # dark, light
   disableThemeToggle: false
+
+  customCSS:
+    - "css/extended/custom.css"
 
   ShowReadingTime: false
   ShowShareButtons: false

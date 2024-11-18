@@ -1,0 +1,19 @@
+.posts-list .post-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.posts-list .post-item img {
+    max-width: 200px;
+    margin-right: 20px;
+}
+
+.posts-list .post-item.reverse {
+    flex-direction: row-reverse;
+}
+
+.posts-list .post-item.reverse img {
+    margin-left: 20px;
+    margin-right: 0;
+}
