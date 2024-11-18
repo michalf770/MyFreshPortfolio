@@ -1,4 +1,4 @@
-baseURL: ""
+baseURL: "https://zingy-crisp-be6006.netlify.app"
 title: Michal Filus
 pagination:
   pagerSize: 5
@@ -66,11 +66,11 @@ params:
     imageTitle: my image
     buttons:
       - name: Videos
-        url: '/portfolio/videos'
+        url: '/videos'
       - name: Photos
         url: photos
       - name: My CV
-        url: resume
+        url: docs/MichalFilus_CV_FR.pdf
 
   # home-info mode
   homeInfoParams:
