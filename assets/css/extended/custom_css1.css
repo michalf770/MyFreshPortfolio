@@ -1,0 +1,33 @@
+.gallery-wrapper {
+    background-color: #dbdbdb;
+    box-sizing: border-box;
+    height: 195px;
+    overflow: hidden;
+}
+
+.gallery-scroll {
+    box-sizing: border-box;
+    height: 195px;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+
+.gallery {
+    background-color: #dbdbdb;
+    display: flex;
+    box-sizing: border-box;
+    width: max-content;
+    height: 180px;
+    padding: 0px 8px;
+}
+
+.item {
+    box-sizing: border-box;
+    height: 100%;
+    padding: 16px 8px;
+}
+
+.item img {
+    display: block;
+    height: 100%;
+}
