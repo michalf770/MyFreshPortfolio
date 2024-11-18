@@ -27,9 +27,6 @@ params:
   defaultTheme: auto # dark, light
   disableThemeToggle: false
 
-  customCSS:
-    - "css/extended/custom.css"
-
   ShowReadingTime: false
   ShowShareButtons: false
   ShowPostNavLinks: false
