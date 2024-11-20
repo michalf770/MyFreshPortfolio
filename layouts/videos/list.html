@@ -2,13 +2,12 @@
 <div class="posts-list">
     {{ $i := 0 }}
     {{ range .Data.Pages }}
-    <article class="post-item {{ if eq (mod $i 2) 1 }}reverse{{ end }}">
+    <article class="post-item">
         {{ if .Params.thumbnail }}
         <img src="{{ .Params.thumbnail }}" alt="{{ .Title }} thumbnail">
         {{ end }}
         <div>
             <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
-            <p>{{ .Summary }}</p>
         </div>
     </article>
     {{ $i = add $i 1 }}

@@ -14,18 +14,19 @@
     <lastBuildDate>Sun, 17 Nov 2024 08:00:10 -0700</lastBuildDate>
     <atom:link href="http://localhost:1313/videos/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>music video</title>
-      <link>http://localhost:1313/videos/music_vid/</link>
+      <title>Music Video</title>
+      <link>http://localhost:1313/videos/music_video/</link>
       <pubDate>Sun, 17 Nov 2024 08:00:10 -0700</pubDate>
-      <guid>http://localhost:1313/videos/music_vid/</guid>
+      <guid>http://localhost:1313/videos/music_video/</guid>
       <description></description>
     </item>
     <item>
-      <title>FARC</title>
+      <title>Foreign language interview edit</title>
       <link>http://localhost:1313/videos/farc/</link>
       <pubDate>Sat, 16 Nov 2024 08:00:00 -0700</pubDate>
       <guid>http://localhost:1313/videos/farc/</guid>
-      <description>&lt;p&gt;FARC w Kolumbii&lt;/p&gt;</description>
+      <description>&lt;p&gt;For this project, I worked on material provided by the client. It included footage and a transcription of the interview: text in Spanish and Polish. Ultimately, the interview was to be ready for publication on YouTube with embedded subtitles in Polish.&lt;/p&gt;
+&lt;p&gt;The transcription contained only the initial time signatures for each of the statements. For this reason, additional work was required to break down the long statements into shorter ones that could be displayed as subtitles.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
