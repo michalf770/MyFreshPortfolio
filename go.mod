@@ -1,6 +1,6 @@
 module github.com/michalf770/MyFreshPortfolio
 
-go 1.21.2
+go 1.23.3
 
 require (
 	github.com/mfg92/hugo-shortcode-gallery v1.3.0 // indirect
