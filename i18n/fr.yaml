@@ -1,0 +1,18 @@
+- id: subtitle
+  translation: "Passionné de vidéo et de photo avec une formation en journalisme. Peut corriger votre suivi de conversion GA4 et/ou Ads. Coordonnées dans mon CV."
+# - id: consent_notice
+  # translation: "Nous souhaitons utiliser <a class='manage-consent' href='#manage-consent'>des codes tiers</a> pour améliorer la fonctionnalité de ce site Web."
+# - id: consent_deny
+  # translation: "Refuser"
+# - id: consent_allow
+  # translation: "Autoriser"
+# - id: consent_manage
+  # translation: "Gérer les préférences"
+# - id: consent_save
+  # translation: "Enregistrer les préférences"
+# - id: consent_allow_all
+  # translation: "Tout autoriser"
+# - id: consent_ga_title
+  # translation: "Google Analytics"
+# - id: consent_ga_description
+  # translation: "Ce code nous aide à analyser le trafic du site."

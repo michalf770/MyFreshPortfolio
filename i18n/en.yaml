@@ -1,0 +1,18 @@
+- id: subtitle
+  translation: "Passionate about video and photography with a background in journalism. Can fix your GA4 and/or Ads conversion tracking. Contact details in my CV."
+# - id: consent_notice
+  # translation: "We would like to use <a class='manage-consent' href='#manage-consent'>third party code</a> to improve the functionality of this website."
+# - id: consent_deny
+  # translation: "Deny"
+# - id: consent_allow
+  # translation: "Allow"
+# - id: consent_manage
+  # translation: "Manage preferences"
+# - id: consent_save
+  # translation: "Save preferences"
+# - id: consent_allow_all
+  # translation: "Allow all"
+# - id: consent_ga_title
+  # translation: "Google Analytics"
+# - id: consent_ga_description
+  # translation: "This code helps us analyze site traffic."

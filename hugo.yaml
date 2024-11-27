@@ -28,6 +28,8 @@ params:
   defaultTheme: auto # dark, light
   disableThemeToggle: false
 
+  displayFullLangName: true
+
   customCSS:
     - "css/custom.css"
 
@@ -69,8 +71,8 @@ params:
   profileMode:
     enabled: true # needs to be explicitly set
     title: 
-    subtitle: "Video and photo enthusiast with journalism background. Can fix your GA4 and/or Ads conversion tracking. Contact info in my CV."
-    imageUrl: "img/p_photo.png"
+    subtitle: i18n "subtitle"
+    imageUrl: "img/p_photo.webp"
     imageWidth: 120
     imageHeight: 120
     imageTitle: my image
@@ -80,7 +82,7 @@ params:
       # - name: Photos
       #   url: '/gallery'
       - name: My CV
-        url: docs/MichalFilus_CV_FR.pdf
+        url: docs/MichalFilus_EN_CV_2024.pdf
 
   # home-info mode
   homeInfoParams:
@@ -94,13 +96,13 @@ params:
       url: "https://linkedin.com/in/michal-filus"
   
 
-  analytics:
-    google:
-      SiteVerificationTag: "XYZabc"
-    bing:
-      SiteVerificationTag: "XYZabc"
-    yandex:
-      SiteVerificationTag: "XYZabc"
+  # analytics:
+  #   google:
+  #     SiteVerificationTag: "XYZabc"
+  #   bing:
+  #     SiteVerificationTag: "XYZabc"
+  #   yandex:
+  #     SiteVerificationTag: "XYZabc"
 
   cover:
     hidden: true # hide everywhere but not in structured data
@@ -138,3 +140,33 @@ module:
   - path: github.com/mfg92/hugo-shortcode-gallery
 
 galleryLoadJQuery: true
+
+defaultContentLanguageInSubdir: true
+DefaultContentLanguage: en
+languages:
+  en:
+    title: Michal Filus
+    languageName: 🇬🇧
+    weight: 1
+    params: 
+      footer:
+        text: "Made in Dijon"
+      profileMode:
+        subtitle: "Passionate about video and photography with a background in journalism. Can fix your GA4 and/or Ads conversion tracking. Contact details in my CV."
+        buttons:
+          - name: My CV
+            url: "/docs/MichalFilus_EN_CV_2024.pdf"
+  
+  fr:
+    title: Michal Filus
+    languageName: 🇫🇷
+    weight: 2
+    params:
+      footer:
+        text: "Fait à Dijon"
+      profileMode:
+        subtitle: "Passionné de vidéo et de photo avec une formation en journalisme. Peut corriger votre suivi de conversion GA4 et/ou Ads. Coordonnées dans mon CV."
+        buttons:
+          - name: Mon CV
+            url: "/fr/MichalFilus_CV_FR.pdf"
+  
