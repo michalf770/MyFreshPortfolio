@@ -1,4 +1,4 @@
-baseURL: "https://zingy-crisp-be6006.netlify.app"
+baseURL: "https://michalfilus.eu"
 title: Michal Filus
 pagination:
   pagerSize: 5
@@ -72,7 +72,7 @@ params:
     enabled: true # needs to be explicitly set
     title: 
     subtitle: i18n "subtitle"
-    imageUrl: "img/p_photo.webp"
+    imageUrl: ""
     imageWidth: 120
     imageHeight: 120
     imageTitle: my image
