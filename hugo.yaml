@@ -153,9 +153,9 @@ languages:
         text: "Made in Dijon"
       profileMode:
         subtitle: "Passionate about video and photography with a background in journalism. Can fix your GA4 and/or Ads conversion tracking. Contact details in my CV."
-        buttons:
-          - name: My CV
-            url: "/docs/MichalFilus_EN_CV_2024.pdf"
+        # buttons:
+          # - name: My CV
+            # url: "/docs/MichalFilus_EN_CV_2024.pdf"
   
   fr:
     title: Michal Filus
@@ -166,7 +166,7 @@ languages:
         text: "Fait à Dijon"
       profileMode:
         subtitle: "Passionné de vidéo et de photo avec une formation en journalisme. Peut corriger votre suivi de conversion GA4 et/ou Ads. Coordonnées dans mon CV."
-        buttons:
-          - name: Mon CV
-            url: "/fr/MichalFilus_CV_FR.pdf"
+        # buttons:
+          # - name: Mon CV
+            # url: "/fr/MichalFilus_CV_FR.pdf"
   
